@@ -1,0 +1,162 @@
+body{
+    font-family: 'sans-serif';
+    width:100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;    
+    background-color: antiquewhite;
+    
+}
+
+html{
+    width: 100%;
+    height: 100%;
+} 
+
+.pad25{
+    padding: 25px;
+}
+
+
+header{
+    background-color: gold;
+    text-align: center;
+    color: white;
+    padding: 150px 20px 20px 20px;
+    margin-bottom: 0px;
+    height:15%;
+    
+}
+
+header.inTheGame{
+    padding-top: 10px;
+}
+
+
+.wrapper{
+    display: flex;
+    color: cadetblue;
+}
+
+section#score{
+    padding: 100px 25px;
+    text-align: center;
+    background-color: black;
+    color:white;
+    max-width: 200px;
+
+}
+
+section#score a{
+    color:white;
+}
+
+div#multiplayers{
+    font-size: 0.8em;
+    margin-top: 50px;
+}
+
+
+div.chooseGame{
+    background-color: antiquewhite;
+    height: 200px;
+    text-align: center;
+    padding-top: 102px;
+
+}
+
+div.choose{
+    padding: 30px;
+    text-align: center;
+    color:black;
+}
+
+
+section#game{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+section#game p#match{
+    text-align: center;
+    padding: 20px;
+}
+
+
+a.chooseGame{
+    margin: 5px;
+    padding: 50px 20px 50px 20px;
+    background-color: cadetblue;
+    border-radius: 21px;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+i.fa{
+    font-size: 1.8em;
+}
+
+a.chooseGame:hover{
+    background-color: tomato;
+}
+
+span.chooseWeapon{
+    margin: 10px;
+    padding: 50px 40px 50px 40px;
+    background-color: tomato;
+    border-radius: 21px;
+    color: white;
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+span.chooseWeapon:hover{
+    background-color:cadetblue;
+}
+
+@media screen and (max-width: 640px) {
+	span.chooseWeapon span.opponentWeapon{
+        padding: 30px 40px;
+        margin: 10px;
+    }
+}
+
+div#second{
+    padding: 15px;
+    text-align: center;
+}
+
+
+span.opponentWeapon{
+    margin: 10px;
+    padding: 50px 85px 50px 85px;
+    background-color: cadetblue;
+    border-radius: 21px;
+    color: black;
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+div#second h2{
+    padding: 20px 0px;
+}
+
+
+
+span#playAgain{
+    visibility: hidden;
+    margin-left:20px;
+    background-color: tomato;
+    color: white;
+}
+
+
