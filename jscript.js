@@ -23,7 +23,7 @@ conn.onmessage = function(e) {
         
         var response = jQuery.parseJSON(e.data);
         $("#opponent").text(response.opponent);
-        $("#opponent").append( '<br><i class="fa fa-hand-' +response.opponent + '-o" aria-hidden="true"></i>');
+        $("#opponent").append( '<br><i' +response.opponent + '></i>');
         $("#winner").text(response.result);
         
         if(response.winner === "Player 1" || response.winner === "It's a tie !"){
@@ -82,7 +82,7 @@ $("#playAgain").click(function(){
         $(this).css("background-color", "tomato");
     });
     
-    $("#opponent").text('').append('<i class="fa fa-question-circle-o" aria-hidden="true"></i>');
+    $("#opponent").text('').append('<i></i>');
     $("#winner").text("");
     $(".chooseWeapon").on('click',playGame);
 });
